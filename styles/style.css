@@ -208,3 +208,132 @@ button {
   justify-content: space-between;
   margin-bottom: 120px;
 }
+
+/* subscribe */
+.subscribe {
+  width: 80%;
+  height: 617px;
+  margin: auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-container {
+  max-width: 896px;
+  margin: auto;
+}
+.sub-container h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sub-container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.sub-title {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.sub-des {
+  margin-bottom: 44px;
+}
+.sub-form {
+  position: relative;
+}
+.sub-form1 {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  border: 0;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: left;
+  margin-left: 20px;
+  padding-left: 20px;
+  /font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: -20px;
+}
+
+.sub-form1:focus {
+  outline: none;
+}
+
+.sub-button {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  border: 0;
+  margin-left: -20px;
+}
+/* footer*/
+
+.footer-container {
+  background-color: #070211;
+  padding: 100px 0px;
+}
+.footer-container2 {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.contact1 {
+  max-width: 375px;
+}
+
+.contact h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 50px;
+}
+.social {
+  width: 30%;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+}
