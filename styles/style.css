@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+main > section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+/* banner */
+.banner {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/BannerImage.png);
+
+  width: 80%;
+  height: 713px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+}
+.banner-content1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-content2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
+
+/* Offer */
+
+.offer {
+  width: 50%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.offer-digit {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.offer-des {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.offer-content {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+.offer-img {
+  fill: lightgray 50% / cover no-repeat;
+}
+
+.party {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/BannerImage.png);
+
+  width: 80%;
+  height: 713px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
