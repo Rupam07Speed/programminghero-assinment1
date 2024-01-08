@@ -128,7 +128,7 @@ main > section {
   gap: 150px;
 }
 .party-container1 {
-  max-width: 80%;
+  width: 800px;
 }
 .party-title {
   width: 100%;
