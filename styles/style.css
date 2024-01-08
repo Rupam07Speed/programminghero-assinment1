@@ -119,6 +119,7 @@ main > section {
 
 .party-container {
   max-width: 80%;
+  height: 345px;
   display: flex;
   align-content: center;
   margin: auto;
