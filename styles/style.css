@@ -118,7 +118,7 @@ main > section {
 }
 
 .party-container {
-  max-width: 70%;
+  max-width: 80%;
   display: flex;
   align-content: center;
   margin: auto;
@@ -127,10 +127,10 @@ main > section {
   gap: 150px;
 }
 .party-container1 {
-  max-width: 700px;
+  max-width: 80%;
 }
 .party-title {
-  max-width: 700px;
+  width: 100%;
   color: #fff;
   font-family: Merriweather;
   font-size: 55px;
