@@ -46,6 +46,7 @@ main > section {
 }
 
 .banner-content2 {
+  max-width: 632px;
   color: #fff;
   text-align: center;
   font-family: Merriweather;
