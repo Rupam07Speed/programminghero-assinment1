@@ -160,6 +160,7 @@ button {
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
+  border: 0;
 }
 /* comimg */
 .ComingSoon {
@@ -193,6 +194,10 @@ button {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+}
+.coming-con p {
+  margin-top: 16px;
+  margin-bottom: 22px;
 }
 .ComingSoon p {
   color: rgba(7, 2, 17, 0.6);
@@ -233,6 +238,10 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.comingyear p {
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
 /* portfolio */
 .portfolio {
